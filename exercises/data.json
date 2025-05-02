@@ -1,0 +1,1200 @@
+{
+  "searchTerm": null,
+  "canonicalUrl": null,
+  "title": null,
+  "primaryHeading": null,
+  "attributeIds": ["49db2f3e-c999-48c2-b5b4-9296635ae75e"],
+  "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+  "marketplace": "IN",
+  "locationId": null,
+  "language": "en-GB",
+  "selectedFiltersCount": null,
+  "mlModels": ["NONE"],
+  "analyzer": null,
+  "contentData": null,
+  "navigation": null,
+  "productGroupings": [
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "SKDkNs",
+          "productCode": "FD2723-404",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "8d6eb601-a56b-429d-93cc-7c2b4f603307",
+          "internalPid": "1015713648",
+          "merchProductId": "9926f848-df68-5066-949b-1607b518bf46",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Women's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Blue",
+              "hex": "1F4090"
+            },
+            "colorDescription": "Blue Tint/Psychic Blue/Smoky Blue/Black"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/49ae43ea-706d-44f5-b246-9f767564b9d4/W+AIR+ZOOM+PEGASUS+41.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/821bcbcc-598d-44f6-86f5-90a48348fd82/W+AIR+ZOOM+PEGASUS+41.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-SKDkNs/FD2723-404",
+            "path": "/in/t/pegasus-41-road-running-shoes-SKDkNs/FD2723-404"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "SKDkNs",
+          "productCode": "FD2723-112",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "792e6ffa-8456-40fb-8ef9-66138db88195",
+          "internalPid": "1015736293",
+          "merchProductId": "27407fa2-c2a6-597d-9a4b-c33de7bd9ae1",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Women's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "White",
+              "hex": "EEF3FF"
+            },
+            "colorDescription": "White/Sail/Metallic Silver/Blue Tint"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/e3e03025-1c86-49cf-8bac-7aecad0ae5df/W+AIR+ZOOM+PEGASUS+41.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/cb421523-f5c0-47a8-afae-d122b27b4a05/W+AIR+ZOOM+PEGASUS+41.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-SKDkNs/FD2723-112",
+            "path": "/in/t/pegasus-41-road-running-shoes-SKDkNs/FD2723-112"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "2jxMFQ",
+          "productCode": "DV3864-103",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "471b7c26-96d0-41ab-a198-018741e15d07",
+          "internalPid": "1015714358",
+          "merchProductId": "635f9fb9-5712-5f08-ac21-84b2122a95f1",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus Trail 5",
+            "subTitle": "Men's Trail-Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "White",
+              "hex": "EEF3FF"
+            },
+            "colorDescription": "White/Metallic Silver/Sail/Blue Tint"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 12795.0,
+            "employeePrice": 12795.0,
+            "initialPrice": 12795.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/bb41be3b-4591-48f4-a474-1ee9243c825b/NIKE+REACTX+PEGASUS+TRAIL+5.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/a855b561-84ad-41dd-9c37-c740024917be/NIKE+REACTX+PEGASUS+TRAIL+5.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-trail-5-trail-running-shoes-2jxMFQ/DV3864-103",
+            "path": "/in/t/pegasus-trail-5-trail-running-shoes-2jxMFQ/DV3864-103"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "RZm89S",
+          "productCode": "FD2722-113",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "8801c9cc-c316-4c61-8f62-31640ae44832",
+          "internalPid": "1015736311",
+          "merchProductId": "11ef0c0d-b306-5e5c-a484-0d6a1f6092ad",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Men's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "White",
+              "hex": "EEF3FF"
+            },
+            "colorDescription": "Sail/Blue Tint/Wolf Grey/Anthracite"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/fcdcf1ba-1a2e-4f4e-9de0-e3086b6ca105/AIR+ZOOM+PEGASUS+41.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/58107a36-71f1-432d-b1fc-585ee9dec7c0/AIR+ZOOM+PEGASUS+41.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS", "BEST_SELLER"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-113",
+            "path": "/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-113"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "BEST_SELLER",
+          "badgeLabel": "Bestseller"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "Mm1SxW",
+          "productCode": "FQ7844-101",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "84f45ed1-314b-47f6-a04a-aa9280a4440b",
+          "internalPid": "1015620879",
+          "merchProductId": "5243530f-e416-5ec1-adaf-791514a0b1e5",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus EasyOn",
+            "subTitle": "Women's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "White",
+              "hex": "EEF3FF"
+            },
+            "colorDescription": "White/Pure Platinum/Dark Smoke Grey/White"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/b24b8d7c-b484-4f58-a2f4-9b0d69360a3a/W+PEGASUS+EASYON.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/78920c69-d3d5-4793-b0b2-077a50118f5d/W+PEGASUS+EASYON.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-easyon-road-running-shoes-Mm1SxW/FQ7844-101",
+            "path": "/in/t/pegasus-easyon-road-running-shoes-Mm1SxW/FQ7844-101"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "bCmwrt",
+          "productCode": "HF6413-100",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "d8e4cd22-6998-4fc4-8e89-981dbc6f8745",
+          "internalPid": "1015702399",
+          "merchProductId": "2c1fbac9-90d3-54f1-abd2-18699656a802",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Vaporfly 4 Proto",
+            "subTitle": "Men's Road Racing Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "White",
+              "hex": "EEF3FF"
+            },
+            "colorDescription": "Sail/Total Orange/White/Black"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 21495.0,
+            "employeePrice": 21495.0,
+            "initialPrice": 21495.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/6d9b9929-f742-44da-958c-fccc94fdfe6f/ZOOMX+VAPORFLY+NEXT%25+4+PROTO.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/1e8622b8-8246-49db-adc2-d18df631b024/ZOOMX+VAPORFLY+NEXT%25+4+PROTO.png"
+          },
+          "featuredAttributes": ["OUT_OF_STOCK"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/vaporfly-4-proto-road-racing-shoes-bCmwrt/HF6413-100",
+            "path": "/in/t/vaporfly-4-proto-road-racing-shoes-bCmwrt/HF6413-100"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "OUT_OF_STOCK",
+          "badgeLabel": "Sold Out"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "9KFBK8",
+          "productCode": "HF6411-100",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "fae8152b-6304-48e0-adf2-be23477fc683",
+          "internalPid": "1015702380",
+          "merchProductId": "94031217-8860-5048-923d-191dff791c1a",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Vaporfly 4 Proto",
+            "subTitle": "Women's Road Racing Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "White",
+              "hex": "EEF3FF"
+            },
+            "colorDescription": "Sail/Total Orange/White/Black"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 21495.0,
+            "employeePrice": 21495.0,
+            "initialPrice": 21495.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/94906377-ee92-4619-9737-e3b3e59e2706/W+ZOOMX+VAPORFLY+NEXT%25+4+PROTO.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/f15974c7-49e2-4671-8cc8-6bd3e58e1dc3/W+ZOOMX+VAPORFLY+NEXT%25+4+PROTO.png"
+          },
+          "featuredAttributes": ["PROMOS_EXCLUDED"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/vaporfly-4-proto-road-racing-shoes-9KFBK8/HF6411-100",
+            "path": "/in/t/vaporfly-4-proto-road-racing-shoes-9KFBK8/HF6411-100"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": null,
+          "badgeLabel": null
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "C4VXTw",
+          "productCode": "FD8315-600",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "5f01125f-4be9-44ea-b99b-3c95e2c74fa3",
+          "internalPid": "1015652028",
+          "merchProductId": "5f6794d2-50a5-53ea-b83b-79c5ce442d49",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Alphafly 3",
+            "subTitle": "Women's Road Racing Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Red",
+              "hex": "B40033"
+            },
+            "colorDescription": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 22795.0,
+            "employeePrice": 22795.0,
+            "initialPrice": 22795.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/eefc5956-8e9e-48a7-95be-f3b404cee625/W+AIR+ZOOM+ALPHAFLY+NEXT%25+3.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/1c2b738d-1ab8-4a5e-8f17-a0a4f0bc2072/W+AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
+          },
+          "featuredAttributes": ["PROMOS_EXCLUDED"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/alphafly-3-road-racing-shoes-C4VXTw/FD8315-600",
+            "path": "/in/t/alphafly-3-road-racing-shoes-C4VXTw/FD8315-600"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": null,
+          "badgeLabel": null
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "DW06JM",
+          "productCode": "FQ7261-600",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "d9ba9592-65ce-4030-9bca-4ab9cbeda2e2",
+          "internalPid": "1015652103",
+          "merchProductId": "b745befd-6eec-5709-b164-26d4d20da657",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus Plus",
+            "subTitle": "Women's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Red",
+              "hex": "B40033"
+            },
+            "colorDescription": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 16995.0,
+            "employeePrice": 16995.0,
+            "initialPrice": 16995.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/188b9d95-bea1-48cd-89f5-546f5d598b1e/W+PEGASUS+PLUS.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/9aaa68a7-ea17-401a-a55c-5e26d4d704bc/W+PEGASUS+PLUS.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-plus-road-running-shoes-DW06JM/FQ7261-600",
+            "path": "/in/t/pegasus-plus-road-running-shoes-DW06JM/FQ7261-600"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "d6x9mh",
+          "productCode": "FD8311-600",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "83ddb940-7ed7-4152-8f19-bb781c93d5b6",
+          "internalPid": "1015652045",
+          "merchProductId": "557cdf79-8cb2-5ce4-8ab4-3e201f9b85a4",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Alphafly 3",
+            "subTitle": "Men's Road Racing Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Red",
+              "hex": "B40033"
+            },
+            "colorDescription": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 22795.0,
+            "employeePrice": 22795.0,
+            "initialPrice": 22795.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/1a5c3044-5824-44b8-aadc-11ef214dce68/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/31b6e47b-2a79-4c53-9cc0-a505aba7795d/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
+          },
+          "featuredAttributes": ["PROMOS_EXCLUDED", "PW_PROMO_EXCLUDED"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/alphafly-3-road-racing-shoes-d6x9mh/FD8311-600",
+            "path": "/in/t/alphafly-3-road-racing-shoes-d6x9mh/FD8311-600"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "PW_PROMO_EXCLUDED",
+          "badgeLabel": "Promo Exclusion"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "PZG8ZD",
+          "productCode": "FN8454-601",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "96124105-5d4b-487f-bb55-c99af8bb0cf1",
+          "internalPid": "1015652211",
+          "merchProductId": "b3388c83-9a58-5d50-8a06-0e02c6299963",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Zoom Fly 6",
+            "subTitle": "Men's Road Racing Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Red",
+              "hex": "B40033"
+            },
+            "colorDescription": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 15995.0,
+            "employeePrice": 15995.0,
+            "initialPrice": 15995.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/72fe7a6a-69fe-4db2-88cd-ec7dcabf88b0/ZOOM+FLY+6.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/b5520a88-3491-4295-be47-ab191b85e422/ZOOM+FLY+6.png"
+          },
+          "featuredAttributes": null,
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/zoom-fly-6-road-racing-shoes-PZG8ZD/FN8454-601",
+            "path": "/in/t/zoom-fly-6-road-racing-shoes-PZG8ZD/FN8454-601"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": null,
+          "badgeLabel": null
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "2rvXrK",
+          "productCode": "HV3032-600",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "2052c85a-83b0-431e-b285-4f1bbe8206ed",
+          "internalPid": "1015714639",
+          "merchProductId": "50d57764-b118-576f-a717-71854dba32c7",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus Plus",
+            "subTitle": "Women's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Pink",
+              "hex": "FF00FF"
+            },
+            "colorDescription": "Hyper Pink/Bright Crimson/Barely Volt/Sequoia"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 16995.0,
+            "employeePrice": 16995.0,
+            "initialPrice": 16995.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/14dc48ec-e38c-4fcd-8a58-e6254c0152a9/W+PEGASUS+PLUS.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/beb4fae2-f980-464b-b9f1-a5cf2e0ef1c9/W+PEGASUS+PLUS.png"
+          },
+          "featuredAttributes": null,
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-plus-road-running-shoes-2rvXrK/HV3032-600",
+            "path": "/in/t/pegasus-plus-road-running-shoes-2rvXrK/HV3032-600"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": null,
+          "badgeLabel": null
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "dH4xpW",
+          "productCode": "FQ0912-602",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "475efb5b-69ac-46ab-b6f0-70f6514369a3",
+          "internalPid": "1015706179",
+          "merchProductId": "92b8bce5-bc62-5762-bef2-e5576e259db4",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus Trail 5 GORE-TEX",
+            "subTitle": "Women's Waterproof Trail-Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Pink",
+              "hex": "FF00FF"
+            },
+            "colorDescription": "Red Stardust/Lilac Ice/Alabaster/Mars Stone"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 15995.0,
+            "employeePrice": 15995.0,
+            "initialPrice": 15995.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/148fa3ea-3f77-415e-9dd1-39253df0fd0d/W+PEGASUS+TRAIL+5+GTX.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/7f673fe1-b535-45c9-8ffe-21573d36a98f/W+PEGASUS+TRAIL+5+GTX.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-trail-5-gore-tex-waterproof-trail-running-shoes-dH4xpW/FQ0912-602",
+            "path": "/in/t/pegasus-trail-5-gore-tex-waterproof-trail-running-shoes-dH4xpW/FQ0912-602"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "dH4xpW",
+          "productCode": "FQ0912-001",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "fc4d11fb-a0b3-47e7-9963-e1c9d251ebd3",
+          "internalPid": "1015582656",
+          "merchProductId": "c6c637e2-08af-5e63-8629-fefe7a676ad2",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus Trail 5 GORE-TEX",
+            "subTitle": "Women's Waterproof Trail-Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Black",
+              "hex": "27292B"
+            },
+            "colorDescription": "Black/Cool Grey/Anthracite/Wolf Grey"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 15995.0,
+            "employeePrice": 15995.0,
+            "initialPrice": 15995.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/39d9ed80-48bd-4e4e-abab-93a7bbc8cb6f/W+PEGASUS+TRAIL+5+GTX.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/5959662d-01f5-4e66-aa20-87691c90d0b7/W+PEGASUS+TRAIL+5+GTX.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-trail-5-gore-tex-waterproof-trail-running-shoes-dH4xpW/FQ0912-001",
+            "path": "/in/t/pegasus-trail-5-gore-tex-waterproof-trail-running-shoes-dH4xpW/FQ0912-001"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "vsskjR",
+          "productCode": "FQ7262-002",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "14b0dbc6-60a3-44be-9b2a-ea82f8c3f625",
+          "internalPid": "1015582722",
+          "merchProductId": "167fae44-a700-5528-896c-a63311a99630",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus Plus",
+            "subTitle": "Men's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Black",
+              "hex": "27292B"
+            },
+            "colorDescription": "Black/Anthracite/White/Pure Platinum"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 16995.0,
+            "employeePrice": 16995.0,
+            "initialPrice": 16995.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/d6c435e3-f6f6-451a-9052-160531612392/PEGASUS+PLUS.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/be57a430-8d83-4546-901f-47dc2cd9de7c/PEGASUS+PLUS.png"
+          },
+          "featuredAttributes": null,
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-plus-road-running-shoes-vsskjR/FQ7262-002",
+            "path": "/in/t/pegasus-plus-road-running-shoes-vsskjR/FQ7262-002"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": null,
+          "badgeLabel": null
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "RZm89S",
+          "productCode": "FD2722-001",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "ec2cf55e-9720-436c-817a-14d7144bb53d",
+          "internalPid": "1014967813",
+          "merchProductId": "75a79bfb-7853-5485-bbf3-e4f96817a700",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Men's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Black",
+              "hex": "27292B"
+            },
+            "colorDescription": "Black/Anthracite/Black"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/f14e8f51-b56a-4e57-8019-95415b627784/AIR+ZOOM+PEGASUS+41.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/8312e20d-5b44-4b90-a355-1f8397f74d1a/AIR+ZOOM+PEGASUS+41.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-001",
+            "path": "/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-001"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "HPk3zB",
+          "productCode": "FN4932-002",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "6dec5438-a4d1-48f4-9b79-efc574f027a2",
+          "internalPid": "1014949855",
+          "merchProductId": "8a8af0ad-c10b-5332-8e6f-61855c7482eb",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Men's Road Running Shoes (Extra Wide)"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Black",
+              "hex": "27292B"
+            },
+            "colorDescription": "Black/Anthracite/White"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/d15d9326-cb42-430d-9abb-58a923e80205/AIR+ZOOM+PEGASUS+41+WIDE.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/c59b96dc-38b1-4f8c-96b4-d4d1181f4a1d/AIR+ZOOM+PEGASUS+41+WIDE.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-HPk3zB/FN4932-002",
+            "path": "/in/t/pegasus-41-road-running-shoes-HPk3zB/FN4932-002"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "SKDkNs",
+          "productCode": "FD2723-002",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "c11d63a9-91ff-4321-a9f1-79a810cd9bc8",
+          "internalPid": "1014924474",
+          "merchProductId": "4dfdaded-9b47-59f2-a5a2-49f3eb0cd531",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Women's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Black",
+              "hex": "27292B"
+            },
+            "colorDescription": "Black/Anthracite/White"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/6785ad85-33be-4269-bac1-fa769af96cb4/W+AIR+ZOOM+PEGASUS+41.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/654ae3ec-14af-4fe4-b477-1ec65950247b/W+AIR+ZOOM+PEGASUS+41.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-SKDkNs/FD2723-002",
+            "path": "/in/t/pegasus-41-road-running-shoes-SKDkNs/FD2723-002"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "Gbj6Js",
+          "productCode": "HQ1717-400",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "dc4f5783-747b-4973-aca3-9e11eeef744b",
+          "internalPid": "1015652178",
+          "merchProductId": "6f956836-ed82-539e-9d6d-363478177921",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Men's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Blue",
+              "hex": "1F4090"
+            },
+            "colorDescription": "Racer Blue/Blue Void/Light Photo Blue/Sail"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/189ce4af-d0e3-436c-a92e-b7231bcab00b/AIR+ZOOM+PEGASUS+41+CM.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/da13da26-ab14-4439-a276-323e6258a224/AIR+ZOOM+PEGASUS+41+CM.png"
+          },
+          "featuredAttributes": null,
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-Gbj6Js/HQ1717-400",
+            "path": "/in/t/pegasus-41-road-running-shoes-Gbj6Js/HQ1717-400"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": null,
+          "badgeLabel": null
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "C7KgvF",
+          "productCode": "HQ1719-400",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "16c238f4-2c6e-4178-80a8-a345f641b5e0",
+          "internalPid": "1015651986",
+          "merchProductId": "fd37f268-4ef2-50d0-9828-392df2fe3a48",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus Plus",
+            "subTitle": "Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Blue",
+              "hex": "1F4090"
+            },
+            "colorDescription": "Racer Blue/Blue Void/Doll/Sail"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 16995.0,
+            "employeePrice": 16995.0,
+            "initialPrice": 16995.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/e5b6312d-8b12-410d-bc8a-c40e793e2005/NIKE+PEGASUS+PLUS+CM.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/a8d4db3a-4e39-4461-ba51-160e157dc450/NIKE+PEGASUS+PLUS+CM.png"
+          },
+          "featuredAttributes": null,
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-plus-road-running-shoes-C7KgvF/HQ1719-400",
+            "path": "/in/t/pegasus-plus-road-running-shoes-C7KgvF/HQ1719-400"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": null,
+          "badgeLabel": null
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "3LbCWQ",
+          "productCode": "FQ0908-700",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "1da56f5e-c366-4bc3-9f6e-fb65eb555988",
+          "internalPid": "1015705349",
+          "merchProductId": "93dd8fc2-2707-5a82-b038-97ca3472c162",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus Trail 5 GORE-TEX",
+            "subTitle": "Men's Waterproof Trail-Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Brown",
+              "hex": "6C5627"
+            },
+            "colorDescription": "Alabaster/Saturn Gold/Lightning/Medium Ash"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 15995.0,
+            "employeePrice": 15995.0,
+            "initialPrice": 15995.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/7389ac98-019b-4a58-af8f-10ff19526e32/NIKE+PEGASUS+TRAIL+5+GTX.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/b683f607-e472-4e66-916a-143937ce457e/NIKE+PEGASUS+TRAIL+5+GTX.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-trail-5-gore-tex-waterproof-trail-running-shoes-3LbCWQ/FQ0908-700",
+            "path": "/in/t/pegasus-trail-5-gore-tex-waterproof-trail-running-shoes-3LbCWQ/FQ0908-700"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "RZm89S",
+          "productCode": "FD2722-303",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "d2b8e1b8-b799-4b2f-8791-af734d4881ed",
+          "internalPid": "1015736308",
+          "merchProductId": "8740db8d-8e4d-5f42-8295-1cb0f9d3676d",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Men's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Green",
+              "hex": "007A44"
+            },
+            "colorDescription": "Olive Aura/Volt/Barely Volt/White"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/abc30a6e-ef87-4520-a3a8-a80c1f97f4a6/AIR+ZOOM+PEGASUS+41.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/2caa25d0-7846-4b6e-8309-9c887213e94b/AIR+ZOOM+PEGASUS+41.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-303",
+            "path": "/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-303"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "RZm89S",
+          "productCode": "FD2722-102",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "5fce6edc-6ef1-4702-9890-3b83a2b9fc7b",
+          "internalPid": "1014943974",
+          "merchProductId": "74b425b8-6458-59a8-9678-54b390cf5ab5",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Men's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "White",
+              "hex": "EEF3FF"
+            },
+            "colorDescription": "White/Pure Platinum/Metallic Silver/White"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/2caa40d0-6887-4844-9431-5004b0a1e317/AIR+ZOOM+PEGASUS+41.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/887859e5-9b50-4c19-a9bb-733f55f88cb2/AIR+ZOOM+PEGASUS+41.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-102",
+            "path": "/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-102"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    },
+    {
+      "cardType": "default",
+      "properties": null,
+      "products": [
+        {
+          "groupKey": "RZm89S",
+          "productCode": "FD2722-009",
+          "productType": "FOOTWEAR",
+          "productSubType": "STANDARD",
+          "globalProductId": "2911e625-72f1-43e3-b388-77ec61a3cf62",
+          "internalPid": "1015651979",
+          "merchProductId": "be6a3699-6529-5f9b-8b64-4e1492d04fe3",
+          "consumerChannelId": "d9a5bc42-4b9c-4976-858a-f159cf99c647",
+          "copy": {
+            "title": "Nike Pegasus 41",
+            "subTitle": "Men's Road Running Shoes"
+          },
+          "displayColors": {
+            "simpleColor": {
+              "label": "Grey",
+              "hex": "808080"
+            },
+            "colorDescription": "Cool Grey/Wolf Grey/Pure Platinum/White"
+          },
+          "prices": {
+            "currency": "INR",
+            "currentPrice": 11895.0,
+            "employeePrice": 11895.0,
+            "initialPrice": 11895.0,
+            "discountPercentage": 0,
+            "employeeDiscountPercentage": 0
+          },
+          "colorwayImages": {
+            "portraitURL": "https://static.nike.com/a/images/t_default/9d2062f4-4d8a-43b4-9837-4a9aea2923d1/AIR+ZOOM+PEGASUS+41.png",
+            "squarishURL": "https://static.nike.com/a/images/t_default/2d158090-0b1f-4a76-a453-a1e1277af85e/AIR+ZOOM+PEGASUS+41.png"
+          },
+          "featuredAttributes": ["SUSTAINABLE_MATERIALS"],
+          "pdpUrl": {
+            "url": "https://www.nike.com/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-009",
+            "path": "/in/t/pegasus-41-road-running-shoes-RZm89S/FD2722-009"
+          },
+          "isNewUntil": null,
+          "promotions": null,
+          "customization": null,
+          "badgeAttribute": "SUSTAINABLE_MATERIALS",
+          "badgeLabel": "Sustainable Materials"
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "next": "/discover/product_wall/v1/marketplace/IN/language/en-GB/consumerChannelId/d9a5bc42-4b9c-4976-858a-f159cf99c647?path=/in/w/running-37v7j&attributeIds=49db2f3e-c999-48c2-b5b4-9296635ae75e&queryType=PRODUCTS&anchor=48&count=24",
+    "prev": "/discover/product_wall/v1/marketplace/IN/language/en-GB/consumerChannelId/d9a5bc42-4b9c-4976-858a-f159cf99c647?path=/in/w/running-37v7j&attributeIds=49db2f3e-c999-48c2-b5b4-9296635ae75e&queryType=PRODUCTS&anchor=0&count=24",
+    "totalPages": 24,
+    "totalResources": 565
+  }
+}

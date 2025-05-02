@@ -1,149 +1,155 @@
 """
-Exercise 1: Network Capture - Nike API Direct Access
-Capture and analyze product data directly from Nike's API endpoints.
+Exercise: Network Capture - Nike Product API
+Showcases Zyte API's network capture feature for Nike's infinite scroll product API.
 """
 
 import sys
 from pathlib import Path
 import json
+from base64 import b64decode
 import requests
-from typing import List, Dict, Optional
+from typing import Dict, List, Optional
 import time
+import os
 
 # Add parent directory to path to import utils
 sys.path.append(str(Path(__file__).parent.parent))
-from utils.config import ZYTE_API_KEY
+from utils.config import ZYTE_API_KEY, ZYTE_API_ENDPOINT
 
-def get_nike_products(category: str) -> List[Dict]:
+def capture_nike_network_requests(url: str, filter_pattern: str, max_retries: int = 3) -> Optional[List[Dict]]:
     """
-    TODO: Implement this function to:
-    1. Configure the Nike API URL for the given category
-    2. Set up proper headers for the API request
-    3. Use Zyte proxy to make the request
-    4. Process and extract product information
-    
+    Capture and analyze Nike product API network requests during page scroll.
     Args:
-        category (str): Product category (e.g., 'mens-shoes', 'football', 'basketball')
-        
+        url (str): Nike product listing page
+        filter_pattern (str): Pattern to filter Nike API requests
+        max_retries (int): Retry attempts
     Returns:
-        list: Processed products data
+        list: Processed network captures
     """
-    # TODO: Configure the Nike API URL based on category
-    base_url = "https://api.nike.com/discover/product_wall/v1/marketplace/IN/language/en-GB"
-    consumer_id = "d9a5bc42-4b9c-4976-858a-f159cf99c647"
-    
-    # TODO: Set up the API URL with proper parameters
-    api_url = f"{base_url}/consumerChannelId/{consumer_id}"
-    
-    # TODO: Configure headers
-    headers = {
-        "nike-api-caller-id": "nike:dotcom:browse:wall.client:2.0",
-        "Referer": "https://www.nike.com/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    payload = {
+        "url": url,
+        "browserHtml": True,
+        "actions": [
+            {"action": "scrollBottom"},
+        ],
+        "networkCapture": [
+            {
+                "filterType": "url",
+                "httpResponseBody": True,
+                "value": filter_pattern,
+                "matchType": "contains"
+            }
+        ]
     }
-    
-    # TODO: Set up Zyte proxy configuration
-    proxies = {
-        "http": f"http://{ZYTE_API_KEY}:@api.zyte.com:8011",
-        "https": f"http://{ZYTE_API_KEY}:@api.zyte.com:8011"
-    }
-    
-    try:
-        # TODO: Make the API request via Zyte proxy
-        # TODO: Process the response and extract products
-        # TODO: Format the product data
-        pass
-        
-    except Exception as e:
-        print(f"Error: {str(e)}")
-        return []
+    for attempt in range(max_retries):
+        try:
+            print(f"Capturing Nike network requests (attempt {attempt + 1}/{max_retries})...")
+            response = requests.post(
+                ZYTE_API_ENDPOINT,
+                auth=(ZYTE_API_KEY, ""),
+                json=payload,
+                timeout=60
+            )
+            response.raise_for_status()
+            result = response.json()
+            captures = result.get("networkCapture", [])
+            if not captures:
+                print("No network captures found. Retrying...")
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)
+                    continue
+                return None
+            print(f"{captures=}")
+            result = process_nike_captures(captures)
+            print(f"{result=}")
+            return result
+        except requests.exceptions.RequestException as e:
+            print(f"Request error: {str(e)}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+                continue
+            return None
+        except Exception as e:
+            print(f"Error: {str(e)}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+                continue
+            return None
+    return None
 
-def format_product(product_data: Dict) -> Dict:
+def process_nike_captures(captures: List[Dict]) -> List[Dict]:
     """
-    TODO: Implement this function to format raw product data
-    
-    Args:
-        product_data (dict): Raw product data from API
-        
-    Returns:
-        dict: Formatted product information
+    Process Nike network captures and extract product data.
     """
-    # TODO: Extract and format product details
-    # - Title
-    # - Subtitle
-    # - Price and currency
-    # - Image URL
-    # - Product URL
-    pass
+    processed_data = []
+    for capture in captures:
+        try:
+            print(f"\n[DEBUG] Capture URL: {capture.get('url')}, Status: {capture.get('status')}, Method: {capture.get('method')}")
+            body = capture.get("httpResponseBody", "")
+            if not body:
+                print(capture)
+                continue
+            decoded_text = b64decode(body).decode()
+            data = json.loads(decoded_text)
+            print(f"{data=}")
+            for grouping in data.get("productGroupings", []):
+                for product in grouping.get("products", []):
+                    product_data = {
+                        "name": product.get("copy", {}).get("title", ""),
+                        "subtitle": product.get("copy", {}).get("subTitle", ""),
+                        "price": product.get("prices", {}).get("currentPrice", ""),
+                        "image_url": product.get("colorwayImages", {}).get("portraitURL", ""),
+                        "product_url": product.get("pdpUrl", {}).get("url", ""),
+                        "url": capture.get("url"),
+                        "method": capture.get("method"),
+                        "status": capture.get("status"),
+                        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                    }
+                    processed_data.append(product_data)
+        except Exception as e:
+            print(f"Error processing capture: {str(e)}")
+            continue
+    return processed_data
 
-def save_to_json(products: List[Dict], filename: str = "nike_products.json"):
+def save_to_json(data: List[Dict], filename: str = "nike_network_captures.json"):
     """
-    Save products to a JSON file in the responses directory.
-    
-    Args:
-        products (list): List of product dictionaries
-        filename (str): Output filename
+    Save captured data to a JSON file in the responses directory.
     """
-    if not products:
+    if not data:
         return
-        
-    # Create responses directory if it doesn't exist
-    Path("responses").mkdir(exist_ok=True)
-    
-    # Save file in responses directory
-    filepath = Path("responses") / filename
-    with open(filepath, 'w', encoding='utf-8') as f:
+    os.makedirs("responses", exist_ok=True)
+    if not filename.startswith("responses/"):
+        filename = os.path.join("responses", filename)
+    with open(filename, 'w', encoding='utf-8') as f:
         json.dump({
-            'products': products,
+            'captures': data,
             'metadata': {
-                'count': len(products),
+                'count': len(data),
                 'timestamp': time.strftime("%Y-%m-%d %H:%M:%S")
             }
         }, f, indent=2, ensure_ascii=False)
 
 def main():
-    # Example categories
-    categories = {
-        'football': 'football-1gdj0',
-        'basketball': 'basketball-3glsm',
-        'running': 'running-37v7j'
-    }
-    
-    for category_name, category_id in categories.items():
-        print(f"\nProcessing {category_name} category...")
-        products = get_nike_products(category_id)
-        
-        if products:
-            print(f"\nFound {len(products)} products:")
-            print("-" * 50)
-            
-            # Show first 3 products as sample
-            for product in products[:3]:
-                print(f"\n🛒 {product.get('title')} - {product.get('subtitle')}")
-                print(f"💰 Price: {product.get('price')} {product.get('currency')}")
-                print(f"🔗 URL: {product.get('product_url')}")
-                print("-" * 30)
-            
-            # Save to JSON
-            filename = f"nike_{category_name}_{time.strftime('%Y%m%d_%H%M%S')}.json"
-            save_to_json(products, filename)
-        else:
-            print(f"No products found for {category_name}")
+    url = "https://www.nike.com/in/w/running-37v7j"
+    filter_pattern = "/discover/product_wall/v1/marketplace/IN/language/en-GB/consumerChannelId/d9a5bc42-4b9c-4976-858a-f159cf99c647"
+    print(f"Analyzing network requests for: {url}")
+    captures = capture_nike_network_requests(url, filter_pattern)
+    if captures:
+        print(f"\nFound {len(captures)} Nike product API captures")
+        filename = f"nike_network_capture_{time.strftime('%Y%m%d_%H%M%S')}.json"
+        save_to_json(captures, filename)
+        print(f"Saved results to {filename}")
+        print("\nSample Captured Products:")
+        print("-" * 50)
+        for product in captures[:2]:
+            print(f"\nName: {product['name']}")
+            print(f"Price: {product['price']}")
+            print(f"Product URL: {product['product_url']}")
+            print(f"API URL: {product['url']}")
+            print(f"Status: {product['status']}")
+            print("-" * 30)
+    else:
+        print("No Nike product API captures found or error occurred")
 
 if __name__ == "__main__":
     main()
-
-"""
-Exercise Tasks:
-1. Complete the implementation of get_nike_products()
-2. Implement format_product() to process the API response
-3. Add error handling for API requests
-4. Extract key product information (name, price, images, URLs)
-5. Handle rate limiting and retries
-
-Bonus:
-- Extract additional product metadata
-- Implement pagination to get more products
-- Add filtering options by product attributes
-- Handle multiple product variants
-""" 

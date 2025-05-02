@@ -1,6 +1,7 @@
 """
 Example 3: Infinite Scroll - Quote Scraper
 Demonstrates infinite scroll handling using Zyte API.
+Link to Documentation: https://docs.zyte.com/zyte-api/usage/reference.html#operation/extract/request/actions
 """
 
 import sys
@@ -27,137 +28,60 @@ def scrape_infinite_scroll(url: str, max_scrolls: int = 3) -> List[Dict]:
     Returns:
         list: Collection of quotes from all scrolls
     """
-    all_quotes = []
-    current_scroll = 0
-    
-    # Initial request to get the page
     payload = {
         "url": url,
         "browserHtml": True,
+        "javascript": True,
         "actions": [
             {
-                "action": "waitForSelector",
-                "selector": {"type": "css", "value": ".quote"}
-            }
-        ],
-        "javascript": True
+                "action": "scrollBottom",
+                # "maxScrollCount": max_scrolls,
+                "onError": "continue"
+            },
+        ]
     }
     
-    while current_scroll < max_scrolls:
-        try:
-            print(f"\nPerforming scroll {current_scroll + 1}...")
-            
-            # Add scroll actions for subsequent requests
-            if current_scroll > 0:
-                payload["actions"].extend([
-                    {
-                        "action": "scrollTo",
-                        "target": {"type": "css", "value": ".quote:last-child"}
-                    },
-                    {
-                        "action": "wait",
-                        "value": 1000  # Wait 1 second for content to load
-                    }
-                ])
-            
-            # Make the request
-            response = requests.post(
-                ZYTE_API_ENDPOINT,
-                auth=(ZYTE_API_KEY, ""),
-                json=payload,
-                timeout=30
-            )
-            response.raise_for_status()
-            
-            # Parse the response
-            result = response.json()
-            html_content = result.get("browserHtml", "")
-            
-            if not html_content:
-                print("No HTML content received")
-                break
-            
-            # Extract quotes
-            new_quotes = extract_quotes(html_content)
-            
-            if not new_quotes:
-                print("No new quotes found. Ending scroll.")
-                break
-            
-            # Check for duplicates
-            new_count = 0
-            for quote in new_quotes:
-                if not is_duplicate(quote, all_quotes):
-                    all_quotes.append(quote)
-                    new_count += 1
-            
-            print(f"Found {new_count} new quotes (Total: {len(all_quotes)})")
-            
-            if new_count == 0:
-                print("No new content loaded. Reached end of infinite scroll.")
-                break
-            
-            current_scroll += 1
-            time.sleep(2)  # Rate limiting
-            
-        except requests.exceptions.RequestException as e:
-            print(f"Request error: {str(e)}")
-            break
-            
-        except Exception as e:
-            print(f"Error: {str(e)}")
-            break
-    
-    return all_quotes
-
-def extract_quotes(html_content: str) -> List[Dict]:
-    """
-    Extract quotes from the page.
-    
-    Args:
-        html_content (str): HTML content to parse
+    try:
+        response = requests.post(
+            ZYTE_API_ENDPOINT,
+            auth=(ZYTE_API_KEY, ""),
+            json=payload,
+            timeout=30
+        )
+        response.raise_for_status()
+        result = response.json()
         
-    Returns:
-        list: Extracted quotes
-    """
-    quotes = []
-    soup = BeautifulSoup(html_content, 'html.parser')
-    
-    for quote_div in soup.select('.quote'):
-        try:
-            # Extract quote data
-            text = quote_div.select_one('.text').get_text(strip=True)
-            author = quote_div.select_one('.author').get_text(strip=True)
-            tags = [tag.get_text(strip=True) for tag in quote_div.select('.tags .tag')]
+        if result and "browserHtml" in result:
+            soup = BeautifulSoup(result["browserHtml"], 'html.parser')
+            quotes = []
             
-            quotes.append({
-                'text': text[1:-1],  # Remove surrounding quotes
-                'author': author,
-                'tags': tags,
-                'scraped_at': time.strftime("%Y-%m-%d %H:%M:%S")
-            })
+            for quote_div in soup.select('.quote'):
+                try:
+                    text = quote_div.select_one('.text').get_text(strip=True)
+                    author = quote_div.select_one('.author').get_text(strip=True)
+                    tags = [tag.get_text(strip=True) for tag in quote_div.select('.tags .tag')]
+                    
+                    quotes.append({
+                        'text': text[1:-1],  # Remove surrounding quotes
+                        'author': author,
+                        'tags': tags,
+                        'scraped_at': time.strftime("%Y-%m-%d %H:%M:%S")
+                    })
+                except Exception as e:
+                    print(f"Error extracting quote: {str(e)}")
+                    continue
             
-        except Exception as e:
-            print(f"Error extracting quote: {str(e)}")
-            continue
-    
-    return quotes
-
-def is_duplicate(quote: Dict, existing_quotes: List[Dict]) -> bool:
-    """
-    Check if a quote is already in the collection.
-    
-    Args:
-        quote (dict): Quote to check
-        existing_quotes (list): Existing quotes
-        
-    Returns:
-        bool: True if quote is a duplicate
-    """
-    return any(
-        q['text'] == quote['text'] and q['author'] == quote['author']
-        for q in existing_quotes
-    )
+            return quotes
+        else:
+            print("No valid response received from Zyte API.")
+            return []
+            
+    except requests.exceptions.RequestException as e:
+        print(f"Request error: {str(e)}")
+        return []
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return []
 
 def save_to_json(quotes: List[Dict], filename: str = None):
     """
@@ -184,7 +108,7 @@ def main():
     url = "http://quotes.toscrape.com/scroll"
     print(f"Starting infinite scroll scrape for: {url}")
     
-    quotes = scrape_infinite_scroll(url, max_scrolls=3)
+    quotes = scrape_infinite_scroll(url, max_scrolls=20)
     
     if quotes:
         print(f"\nFound {len(quotes)} total quotes")
