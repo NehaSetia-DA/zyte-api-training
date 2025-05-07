@@ -19,18 +19,18 @@ def basic_scraper(url):
             "productList": True,
             #"article": True,
             #"articleList": True,
-            "actions": [
-                {
-                    "action": "scrollBottom",
+            # "actions": [
+            #     {
+            #         "action": "scrollBottom",
                     
-                }
-             ]
+            #     }
+            #  ]
         }
     )
     return response.json()
 
 if __name__ == "__main__":
-    url = "https://www.nike.com/in/w/running-37v7j"
+    url = "https://www.nike.com/in/w/mens-running-shoes-37v7jznik1zy7ok"
     result = basic_scraper(url)
     print(result)
 

@@ -15,8 +15,7 @@ Learn to build robust web scrapers using Zyte API, handling different scraping s
 
 ### Prerequisites
 - Python 3.8 or higher
-- [Cursor IDE](https://www.cursor.com/downloads) installed
-- [Zyte API account](https://www.zyte.com/zyte-api/?utm_campaign=DIS-ONBOARD&utm_activity=Community&utm_medium=social&utm_source=Discord&utm_content=zyte_api_edc) and API key
+- [Zyte API account](https://www.zyte.com/zyte-api/?utm_campaign=DIS-ONBOARD&utm_activity=Community&utm_medium=social&utm_source=Discord&utm_content=zyte_api_Web32) and API key
 - Basic understanding of Python and web scraping concepts
 
 ### Installation
@@ -72,7 +71,7 @@ Ready-to-use example implementations:
 Practice exercises with increasing complexity:
 - `01_network_capture.py` - Nike product data extraction
 - `02_pagination_classic.py` - Job listings scraper
-- `03_infinite_scroll.py` - Social media posts scraper
+- `03_infinite_scroll.py` - Nike Product Extraction using Infinite scroll actions Zyte API. 
 - `04_form_submission.py` - Quote search form automation
 - `practice_scenarios.py` - Additional challenges
 
@@ -165,8 +164,4 @@ Feel free to:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ✨ Acknowledgments
 
-- Zyte team for the excellent API
-- Cursor IDE team for the development environment
-- All contributors and participants 

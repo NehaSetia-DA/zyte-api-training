@@ -31,11 +31,10 @@ def scrape_infinite_scroll(url: str, max_scrolls: int = 3) -> List[Dict]:
     payload = {
         "url": url,
         "browserHtml": True,
-        "javascript": True,
         "actions": [
             {
                 "action": "scrollBottom",
-                # "maxScrollCount": max_scrolls,
+                "maxScrollCount": max_scrolls,
                 "onError": "continue"
             },
         ]

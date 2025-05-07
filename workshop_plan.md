@@ -13,7 +13,7 @@ Prerequisites: Basic Python knowledge, Cursor IDE installed
 - [ ] Verify prerequisites:
   - Cursor IDE installed: [link](https://www.cursor.com/downloads)
   - Python 3.8+ installed
-  - Zyte API account created: [link](https://www.zyte.com/zyte-api/?utm_campaign=DIS-ONBOARD&utm_activity=Community&utm_medium=social&utm_source=Discord&utm_content=zyte_api_edc) 
+  - Zyte API account created: [link](https://www.zyte.com/zyte-api/?utm_campaign=DIS-ONBOARD&utm_activity=Community&utm_medium=social&utm_source=Discord&utm_content=zyte_api_Web32) 
 - Workshop GitHub Repository: [link](https://github.com/NehaSetia-DA/zyte-api-training)
 - [ ] Share workshop materials:
   - GitHub repository link
@@ -309,7 +309,7 @@ Each exercise includes:
 5. Data storage solutions
 
 ## Support Resources
-- Zyte API Signup: [[link](https://www.zyte.com/zyte-api/?utm_campaign=DIS-ONBOARD&utm_activity=Community&utm_medium=social&utm_source=Discord&utm_content=zyte_api_edc)]
+- Zyte API Signup: [link](https://www.zyte.com/zyte-api/?utm_campaign=DIS-ONBOARD&utm_activity=Community&utm_medium=social&utm_source=Discord&utm_content=zyte_api_Web32)
 - Cursor IDE Download: [link](https://www.cursor.com/downloads)
 - Workshop GitHub Repository: [link](https://github.com/NehaSetia-DA/zyte-api-training)
 
